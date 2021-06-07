@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Escribir "ingrese un numero positivo"
+	leer n1
+	fact<-1
+	si n1 > 0 Entonces
+		Para I<-1 Hasta n1 Con Paso 1 Hacer
+			fact<- fact * I
+		Fin Para
+		Escribir "el facotiral de " , n1 , " es ", fact
+	SiNo
+		Escribir "no existe facotrial"
+	FinSi
+	
+FinAlgoritmo
